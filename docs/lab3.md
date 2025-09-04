@@ -78,10 +78,13 @@ Now copy the code below and overwrite the brackets ``{}`` in the **Form JSON Sch
 
 Once completed you can choose **Show Form** to see how the interface will look for the endusers. 
 Click on **Save**, to save the changes. 
-Also **Subscribe** to this template, to make it available for endusers. Before subscribing to it, the template can not be deployed by endusers.
+In order to make this template available in the DevPortal, make sure that the **Template Status is Actived** and your **Revision is Published**
 
-![NoCode interface](image/save-create-subscribe.png) 
-_Fig. NoCode interface after adapting it_  
+![Activate Tempalte](image/activate.png) 
+_Fig. Activate Tempalte_  
+
+![Publish Revision](image/publish.png) 
+_Fig. Publish Revision_
 
 ## 3.3 - Deploy your vpc-template via NoCode
 ### Description

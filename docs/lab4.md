@@ -22,10 +22,10 @@ Until now we were only dealing with single level templates which are VPCs, VMs, 
 In the navbar click on **Dev Portal**. This will bring you to the Developer Portal, which allows anybody in the organisation to deploy infrastructure & applications (without Coding experience). 
 
 1. In the **Template Type** dropdown choose **IAC Groups**
-2. **Use** the **aws-full-stack**
+2. **Use** the **AWS Kubernetes Stack**
 
 ![IaC Group](image/use-aws-full-stack.png)  
- _Fig. Use aws-full-stack_  
+ _Fig. Use AWS Kubernetes Stack_  
 
 ---
 
@@ -39,7 +39,7 @@ Click **Next**.
    * VPC name: **vpc-xx**  (xx is your assigned number)
    * Region: **Frankfurt**
    * Cluster Name: **cluster-xx** (xx is your assigned number)
-   * Cluster Version: **1.31**
+   * Cluster Version: **1.33**
 Click **Next**.
 
 ---
@@ -67,7 +67,7 @@ Now we have seen, how simple it can be for the end-user to deploy infrastructure
 But how are all the single modules/templates connected? How are variables transfered between Terraform and Helm? 
 
 ### Full-Stack in Library
-Go to the library, choose **Template Type: IAC Groups**. Then select the **aws-full-stack** IaC Group. 
+Go to the library, choose **Available in DevPortal**. Then select the **AWS Kubernetes Stack** IaC Group. 
 
 ![IaC Group](image/aws-full-stack.png)  
 _Fig. IaC Group in the StackGuardian Library_   

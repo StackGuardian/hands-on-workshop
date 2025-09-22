@@ -80,8 +80,8 @@ Once completed you can choose **Show Form** to see how the interface will look f
 Click on **Save**, to save the changes. 
 In order to make this template available in the DevPortal, make sure that the **Template Status is Actived** and your **Revision is Published**
 
-![Activate Tempalte](image/activate.png) 
-_Fig. Activate Tempalte_  
+![Activate Template](image/activate.png) 
+_Fig. Activate Template_  
 
 ![Publish Revision](image/publish.png) 
 _Fig. Publish Revision_

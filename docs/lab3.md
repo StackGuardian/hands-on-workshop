@@ -11,10 +11,6 @@ The goal of this use-case is to demonstrate the following:
 * NoCode Interface to simplify deployment of infrastructure
 * Versioning and lifecycle of templates
 
-
-![Usecase 3](image/usecase2.png)
-_Fig. Use the marketplace to manage and deploy templates_
-
 ## 3.1 - Create an IaC template
 ### Description
 In this lab you will learn how to create a new template from an existing workflow.
@@ -24,14 +20,12 @@ In this lab you will learn how to create a new template from an existing workflo
 Starting point is once again your existing workflow **repo-vpc-xx**. 
 Choose the tab **Settings** and **Create Template**.
   
-![Create Template](image/create-template-from-wf.png) 
-_Fig. Create IaC template from existing workflow_  
-
 In the new window provide the following parameters:
 1. Template Name = ``vpc-template-xx``
 2. The rest of the parameters are prefilled from the workflow (leave them as is)
 3. Hit **Create** to add this template to your marketplace.
 
+<supa-demo id="cmky3xbyp21omtw9fkipjozy9"></supa-demo>
 
 ## 3.2 - Adapt the NoCode interface for your needs
 ### Description
@@ -80,11 +74,8 @@ Once completed you can choose **Show Form** to see how the interface will look f
 Click on **Save**, to save the changes. 
 In order to make this template available in the DevPortal, make sure that the **Template Status is Actived** and your **Revision is Published**
 
-![Activate Template](image/activate.png) 
-_Fig. Activate Template_  
+<supa-demo id="cmky4p59h22vftw9f6t2h7piz"></supa-demo>
 
-![Publish Revision](image/publish.png) 
-_Fig. Publish Revision_
 
 ## 3.3 - Deploy your vpc-template via NoCode
 ### Description

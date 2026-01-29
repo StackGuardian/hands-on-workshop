@@ -19,19 +19,16 @@ This section shows how deployments and tests can be started from git.
 ### Setup triggers
 Let's navigate to your existing workflow from the first usecase by choosing **Deploy** and afterwards **Workflow Groups** in the nav bar. 
 
-Select your workflow group **wfg-xx**, and then the workflow **repo-vpc-xx**. 
-Choose the tab **Settings** and **Advanced Options**. 
+1. Select your workflow group **wfg-xx**, and then the workflow **repo-vpc-xx**. 
+2. Choose the tab **Settings**.
+3. Enable **Edit**-Mode
+4. **Configure** Github Triggers.
+5. Select **Require Terraform/Opentofu plan approval before apply** 
+6. Select **Run Terraform/Opentofu plan only on updates to tracked branch PRs**. Enter ``master`` as the **target branch**.
+7. Triggers are active immediatly, even before leaving the Edit-Mode.
 
-![UseCase 2](image/advanced-options.png)
-_Fig. Open Advanced Options for Github Triggers_
+<supa-demo id="cmky3em392119tw9f9v9xruxf"></supa-demo>
 
-
-Scroll down to the button **Configure Github Triggers**. <p>
-Now configure the triggers as shown in the image below. 
-
-<img src= "image/github-triggers.png" width="500">
-
-_Fig. Configure Github Triggers_
 
 
 ### What is the effect of triggers
